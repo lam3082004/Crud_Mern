@@ -1,0 +1,50 @@
+POST  http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "buitunglam",
+    "password": "buitunglam"
+}
+
+###
+
+POST  http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "buitunglam",
+    "password": "buitunglam"
+}
+
+###
+
+POST  http://localhost:5000/api/posts
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTA2MDFjNTg1OGVhMDFkYjQzZWYyZDgiLCJpYXQiOjE2Mjc5OTgwNTN9.sJiDJG9B_pK84UenWf5o2iUcxA800qtYGLDnUXdRMRY
+
+{
+    "title": "hackathon",
+    "description": "hahaha",
+    "url": "thptchuyen.ntu.com",
+    "status":"prepare"
+}
+
+###
+GET  http://localhost:5000/api/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTAwMjk0MzI3MzI4ZDRkMzhiMjc2NTIiLCJpYXQiOjE2Mjc0MDIwOTJ9.mn_2TDSsJbVuPVr4rpGTxIhPCuczqJaGypgi4Kn5WBc
+
+###
+PUT http://localhost:5000/api/posts/61002fa032839850ac6014b1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTAwMjk0MzI3MzI4ZDRkMzhiMjc2NTIiLCJpYXQiOjE2Mjc0MDIwOTJ9.mn_2TDSsJbVuPVr4rpGTxIhPCuczqJaGypgi4Kn5WBc
+
+{
+    "title": "test update",
+    "description": "updated",
+    "url": "thptchuyen.ntu.coder",
+    "status": "Upcomming"
+}
+
+###
+DELETE http://localhost:5000/api/posts/61002fa032839850ac6014b1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTAwMjk0MzI3MzI4ZDRkMzhiMjc2NTIiLCJpYXQiOjE2Mjc0MDIwOTJ9.mn_2TDSsJbVuPVr4rpGTxIhPCuczqJaGypgi4Kn5WBc

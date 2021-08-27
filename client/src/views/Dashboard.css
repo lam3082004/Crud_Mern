@@ -1,0 +1,90 @@
+h2 {
+    font-family: 'SVN-Veneer';
+    font-size: 24px;
+}
+
+.profile_page {
+    margin-top: 100px;
+    width: 100%;
+    height: 980px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #203040;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_page .col-left {
+    /* max-width: 400px;
+    min-width: 300px; */
+    width: 600px;
+    height: 600px;
+    margin-top: 10px;
+    /* margin: auto; */
+}
+
+.h2 {
+    font-size: 10px;
+}
+
+/* .profile_page .col-left h1{
+    text-align: center;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    color: #333;
+    margin: 10px 0;
+} */
+
+/* .profile_page .col-left input{
+    width: 100%;
+    height: 40px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    background: #fee;
+    padding: 0 5px;
+}
+.profile_page .col-left button{
+    background: #333;
+    color: white;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    margin: 10px 0;
+}
+.edit_user .go_back{
+    background: white;
+    margin: 20px;
+    font-size: 1.2rem;
+} */
+
+.profile_page .col-right {
+    padding: 0 10px;
+    flex: 0.7;
+    min-width: 400px;
+}
+
+.profile_page .col-right {
+    padding: 0 10px;
+    flex: 0.95;
+    min-width: 300px;
+}
+
+.filter-container {
+    margin-bottom: 110%;
+}
+
+.aside-title {
+    margin-top: 1px;
+    /* background-color: #000; */
+}
+
+/* .col-center{
+    
+} */
