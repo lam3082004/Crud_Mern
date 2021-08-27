@@ -33,8 +33,8 @@ const Auth = ({ authRoute }) => {
         <div className="landing">
             <div className="dark-overlay">
                 <div className="landing-inner">
-                    <h1>Hackathon</h1>
-                    <h4>What contest are you looking for?</h4>
+                    <h1>Contest</h1>
+                    <h4>What do you want to learn?</h4>
                     {body}
                 </div>
             </div>
